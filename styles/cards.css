@@ -1,0 +1,22 @@
+.card{
+	background-color: white;
+	text-align: center;
+	padding: 16px;
+	box-shadow: 1px 1px 1px 2px black;
+}
+
+.card img{
+	width: 60%;
+	height:300 px;
+	object-fit: cover;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
+.card h1, h2, h3, p {
+font-family: 'Roboto', sans-serif;
+}
