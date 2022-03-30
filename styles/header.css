@@ -6,7 +6,7 @@ header {
 	background-image: url(../images/ban.jpg);
 	background-size: cover;
 	padding: 90px;
-	margin: 200	px 0px 0px 0px;
+	margin: 200	px 0px 0px 0px; /* ça marche mais tenter de faire autrement*/
 }
 
 header .button {
