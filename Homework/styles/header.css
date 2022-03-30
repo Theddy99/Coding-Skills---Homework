@@ -1,0 +1,26 @@
+header {
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	background-image: url(../images/ban.jpg);
+	background-size: cover;
+	padding: 90px;
+	margin: 200	px 0px 0px 0px;
+}
+
+header .button {
+	color: #FFD697;
+	transition: 1s;
+	background-color: white;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+header .button:hover {
+	background-color: #FFD697;
+	transition: 1s;
+	border-radius: 5px;
+	color: white;
+	padding: 5px;
+}
